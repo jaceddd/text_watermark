@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="text_watermark.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <title>Text Watermark (Vanilla)</title>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- SECTION -->
+<div class="title_blue_dark_section">
+    <p class="texter"> Text Watermark</p>
+</div>
+
+<!-- S CONTENT -->
+<div class="section_border">
+    <div class="doc_section_dark">
+        <p class="texter"><strong>Text Watermark</strong> adds invisible text to the end of a string and adds it to your clipboard. This allows invisible communication in plain sight. You can use this to watermark content, blog posts, or even send hidden messages in email or discord. Some places like twitter, will not allow it. You should test a service first by going to the bottom of this page. </p> <p class="texter">&ensp;To use it, you must specify a message and a hidden message in the below boxes. Once you have done this, press the combine button and then click the button to add the message to clipboard. It will add a "." to the end (which makes it easier to paste). The hidden message is encoded in invisible characters. Send this to the intended recipient. Then, using this page they can decode the message using the decode section.</p> <p class="texter">
+
+        &ensp; This is hexadecimal steganographic encoder and decoder that abuses the fact that UTF-8 contains at least 17 special zero width space characters (there are more, but they are more disruptive).  This took a lot of research and testing, but I believe that these are the only ones that work. I tested at least 40 different characters and eventually had to settle on some that can mess formatting up in some places slightly. The reason 17 is important is hex contains 16 unique characters: <strong>0123456789abcdef</strong> and '<strong>x</strong>' is used as a delimiter/spacer.
+
+    </p> <p class="texter">
+        <b>&#x2022;&nbsp;&nbsp;</b> You can view and add these characters one by one to your clipboard <a href="../add_to_clipboard/index.html">here</a>.
+
+
+    </p> <p class="texter">
+        &ensp;<i>The method used on this current page is very easy to crack so it should not be trusted past having a bit of fun. It uses a set code so every person that uses it shares the same code. This is done for simplicity.</i>
+    </p> <p class="texter">
+
+        &#x2022;&nbsp;&nbsp;If you want a <strong>more secure version</strong> and are running this HTML page locally from your computer click <a href="../itext_url_version/index.html">here</a> for the URL encrypted version. You need to delete this one from your browsing history and save the generated code.
+    </p> <p class="texter">
+
+        &#x2022;&nbsp;&nbsp; If are hosting this on a HTTPS website and want to use cookies to store a code instead. click <a href="../itext_cookie_version/index.html">here</a> for the cookie encrypted version. This one uses cookies so chrome can't use it locally.
+
+    </p> <p class="texter">
+        <b> Please, if you do use these two above methods <i><u>make sure to read the description about how secure they are. </u></i></b><BR><BR>
+        <a href="../index.html"><< Back to menu.</a>
+
+        </p>
+    </div>
+</div>
+
+<!-- BLANK SECTION DIVIDER -->
+<div class="blank_section"></div>
+
+<!-- SECTION -->
+<div class="section_border">
+    <div class="title_blue_dark_section">
+        <p class="texter"> Encode a message.</p>
+    </div>
+
+<!-- S CONTENT -->
+    <div class="doc_section_dark">
+        <p class="texter">
+            Enter the visible text you want to send.
+            <BR>
+            <textarea class="visible_text">
+</textarea><BR>
+            Enter the secret message you want to attach to it then press combine and hide.<BR>
+            <textarea class="invisible_text">
+</textarea>
+            <BR> <button class="combiner_button" > Combine and hide. </button> <BR><BR>
+
+            Click the button below this box to copy the encoded message to your clipboard. There will be a full stop (period) added to the end of the text, the invisible message exists between this and the full stop.<BR>
+            <textarea class="combined_text" style="user-select: none;background-color:lightgray;">
+</textarea><BR>
+            <button class='copy_this_button'>Copy to clipboard, ready to send</button><BR>
+        </p>
+    </div>
+</div>
+
+
+
+<!-- BLANK SECTION DIVIDER -->
+<div class="blank_section"></div>
+
+<!-- SECTION -->
+<div class="section_border">
+    <div class="title_blue_dark_section">
+        <p class="texter"> Decode a message.</p>
+    </div>
+
+
+    <div class="doc_section_dark">
+        <p class="texter"> To decode a message you have been sent by somebody else paste it in the below box and press decode.</p>
+
+        <textarea class="dec_src" >
+</textarea><BR>
+        <button class="decod"> Decode!</button><BR>
+
+        <p class="texter"> This should be the hidden message decoded.</p>
+        <textarea class="decoded_result">
+</textarea><BR>
+
+
+    </div>
+</div>
+
+
+<!-- BLANK SECTION DIVIDER -->
+<div class="blank_section"></div>
+
+<!-- SECTION -->
+<div class="section_border">
+    <div class="title_blue_dark_section">
+        <p class="texter"> Copy a string of hidden characters.</p>
+    </div>
+
+
+    <div class="doc_section_dark">
+        <p class="texter">
+            If you would like to test sending these hidden messages on a service, website, email or anything: you can copy all the characters to clipboard by pressing the below button then sending to whatever service.  <BR>
+            <textarea class="hidden_invisible_chars" style="opacity:0;width:0px;height:0px;">
+        </textarea>
+
+
+            <button class="copy_all_invis_chars_button" > Click here.</button><BR><BR>
+             If you don't see anything once sent, it's probably worked. Places like twitter will warn you that you have strange unrecognized characters in the message and will not let you send it. But this currently works on quite a few platforms including discord, personal websites and most emails most emails.
+            <BR><BR>
+            If you want to copy the characters individually to cause mischief you can also use this extra tool I included by clicking <a href="../add_to_clipboard">here</a>.
+        </p>
+    </div>
+</div>
+
+
+
+    <!-- SECTION FOOTER -->
+    <div class="section_border">
+        <div class="title_blue_dark_section" style="height:100% !important;">
+            <div class="texter">Text Watermark & Steganography kit by J. Denby (<a class='rab_link' href="LICENSE.txt">MIT license</a>)<BR>
+                All rights reserved &copy; 2024 <a class='rab_link' href="http://rabian.io">
+                    Rabian.io</a>
+            </div>
+        </div>
+    </div>
+
+
+<!-- CONAINER END-->
+</div>
+
+
+</body>
+</html>
+
+
+

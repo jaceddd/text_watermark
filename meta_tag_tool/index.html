@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Zero-width chars to clipboard.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="meta_tag_tool.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<div class="title_blue_dark_section">
+    <p class="texter"> Meta tag tool</p>
+</div>
+
+<div class="section_border">
+    <div class="doc_section_dark">
+        <p class="texter">
+            This section is purely experimental but previously worked, current changes to google mean it does not seem to work properly. This page is for research purposes only. It inserts hidden text into your head tag, this makes it searchable via google. To use this, insert the text you would like to hide in the first box. It will generate a meta tag for your site with the hidden code. Subject2 and Subject3 should be the real subject of the page. For SEO reasons, it will also generate a h1 tag for you with the code in it directly before the "-". You can press backspace to delete the visible text, then type the real title. As this is unique, you can do a google search for the invisible tag using the other button at the bottom of the page, just put your chosen text that you used in the first box then press the bottom button. This lets you track your content or link poisoned google searches with your website at the top.
+            <BR>
+            <BR>
+            <b> Please, if you do use these two above methods <i><u>make sure to read the description about how secure they are. </u></i></b>
+            <BR>
+            <BR>
+            <a href="../index.html"><< Back to menu.</a>
+            <BR>
+            <BR>
+            Insert the your chosen unique text here.
+            <textarea class="insert_text_here"></textarea><BR>
+            <button class='generate_code'>Create meta tag</button><BR>
+            Head/meta tag:<br>
+            <textarea class="outputted_meta_tag"></textarea><BR>
+            H1 tag:<br>
+            <textarea class="outputted_h1_tag"></textarea><BR>
+            <BR>
+            <BR>
+            <BR>
+            Search text (use visible text here)
+            <textarea class="google_text_vis"></textarea><BR>
+            Poison (word to search for along with the invisible code)
+            <textarea class="poison"></textarea><BR>
+            <button class='search_google'>Search google with optional poison.</button><BR>
+        </p>
+    </div>
+</div>
+
+<!-- SECTION FOOTER -->
+<div class="section_border">
+    <div class="title_blue_dark_section" style="height:100% !important;">
+        <div class="texter">Text Watermark & Steganography kit by J. Denby (<a class='rab_link' href="LICENSE.txt">MIT license</a>)<BR>
+            All rights reserved &copy; 2024 <a class='rab_link' href="http://rabian.io">
+                Rabian.io</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="cookie_version.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <title>Text Watermark Server version (Cookies)</title>
+</head>
+
+<body>
+<div class="container">
+
+    <!-- SECTION HEADER -->
+    <div class="title_blue_dark_section">
+        <p class="texter"> Text watermark - Semi encrypted cookie  version.</p>
+    </div>
+
+
+    <!-- S CONTENT -->
+    <div class="section_border">
+        <div class="doc_section_dark">
+            <p class="texter"><strong>Text watermark cookie version</strong> is intended to be used on a HTTPS server as it uses cookies. The generated passcode is stored as a browser cookie, which is helpful for if you want long term storage and use of the same code. Saving or writing down your code is still advised - but the same one will be stored as a cookie for ease of use. This one will not work on chrome locally. If you are running this from your own computer use the <a href="../itext_url_version/index.html">URL version here</a>. It is highly advised both people download the project and run it locally using the URL version, but the server version is just included as a bonus.
+            </p>
+            <p class="texter">&ensp;To use it, you must specify a message and a hidden message in the below boxes, a code will be generated as you visit, you can generate a new one but do not make your own. Once you have entered your messages. Press the combine button and then click the button to add the message to clipboard. It will add a "." to the end (which makes it easier to paste). The hidden message is encoded in invisible characters here. Send this to the intended recipient. Then, using this page they can decode the message using section 3 as long as the recipient has the code you used to generate the message. <strong>Please only use generated codes, not your own!</strong>
+                <BR>
+                <BR>
+                This is security by obscurity and invisibility. Send your keycode on a different service to where you intend to communicate, or on a piece of paper. <strong>The passcode can be "picked" or cracked although it is tedious and time consuming to do so as there are estimated 355687430000000 different combinations. This should not be used as an alternative to real encryption, but it can be used alongside it as an extra layer of security.</strong>
+                <BR>
+                <BR>
+                <a href="../index.html"><< Back to menu.</a>
+            </p>
+        </div>
+    </div>
+
+<!-- SECTION -->
+<div class="section_border">
+    <div class="title_blue_dark_section">
+        <p class="texter"> 2. Encode a message.</p>
+    </div>
+
+
+    <div class="doc_section_dark">
+
+        <p class="texter">
+            Enter your keycode here.
+            <BR>
+            <input class="pass_code_i">
+<BR>
+        </p>
+        <button class='generate_code'>Generate new code.</button><BR>
+        <button class='save_code_as_cookie'>Save this code.</button><BR>
+
+        <p class="texter">
+            Enter your normal message here.
+            <BR>
+            <textarea class="this_with"></textarea><BR>
+            Enter the message you want to hide within it here.<BR>
+            <textarea class="and_this"></textarea>
+            <BR> <button class="combiner"> Combine and hide. </button> <BR><BR>
+
+            Click the button below this box to copy the contents to clipboard. The previous message will add a full stop.<BR>
+            <textarea class="into_this read_only" readonly></textarea><BR>
+            <button class='copy_this'>Copy to clipboard, ready to send</button><BR>
+        </p>
+    </div>
+</div>
+
+<!-- SECTION -->
+<div class="section_border">
+    <div class="title_blue_dark_section">
+        <p class="texter"> 3. Decode a message.</p>
+    </div>
+
+
+
+
+    <div class="doc_section_dark">
+
+        <p class="texter">
+            Enter your keycode here.
+            <BR>
+            <input class="pass_code_o">
+        </p>
+        <button class='save_code_as_cookie_2'>save this code</button><BR>
+
+        <p class="texter"> Paste text here, then press decode.</p>
+
+        <textarea class="dec_src">
+</textarea><BR>
+        <BR><button class="decod"> Decode!</button><BR>
+
+        <p class="texter"> Decoded result </p>
+        <textarea class="decoded_result read_only" readonly>
+</textarea><BR>
+
+
+    </div>
+</div>
+
+    <!-- SECTION -->
+    <div class="section_border">
+        <div class="title_blue_dark_section">
+            <p class="texter"> Copy a string of hidden characters.</p>
+        </div>
+
+
+        <div class="doc_section_dark">
+            <p class="texter">
+                If you would like to test sending these hidden messages on a service, website, email or anything: you can copy all the characters to clipboard by pressing the below button then sending to whatever service.  <BR>
+                <textarea class="hidden_invisible_chars" style="opacity:0;width:0px;height:0px;"></textarea>
+
+
+                <button class="copy_all_invis_chars_button" > Click here.</button><BR><BR>
+                If you don't see anything once sent, it's probably worked. Places like twitter will warn you that you have strange unrecognized characters in the message and will not let you send it. But this currently works on quite a few platforms including discord, personal websites and most emails most emails.
+                <BR><BR>
+                If you want to copy the characters individually to cause mischief you can also use this extra tool I included by clicking <a href="../add_to_clipboard">here</a>.
+            </p>
+        </div>
+    </div>
+
+
+    <!-- SECTION FOOTER -->
+    <div class="section_border">
+        <div class="title_blue_dark_section" style="height:100% !important;">
+            <div class="texter">Text Watermark & Steganography kit by J. Denby (<a class='rab_link' href="LICENSE.txt">MIT license</a>)<BR>
+                All rights reserved &copy; 2024 <a class='rab_link' href="http://rabian.io">
+                    Rabian.io</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

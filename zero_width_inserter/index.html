@@ -1,0 +1,124 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title> Zero-width chars to clipboard.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <script src="inserter.js"></script>
+    <link rel="stylesheet" href="../style.css">
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+<div class="title_blue_dark_section">
+    <p class="texter"> 1. Text Seeder.</p>
+</div>
+
+<div class="section_border">
+    <div class="doc_section_dark">
+
+        <p class="texter">
+
+            This section will seed text with hidden characters which can sometimes confuse AI detection. It can also theoretically trick plagiarism detection or be used for random mischief. <BR><BR>
+
+            <a href="../index.html"><< Back to menu.</a>
+
+        </p>
+    </div>
+</div>
+
+
+<!-- SECTION -->
+<div class="section_border">
+    <div class="title_blue_dark_section">
+        <p class="texter"> 2. Options.</p>
+    </div>
+
+
+    <div class="doc_section_dark">
+        <div class="texter_options">
+
+            <p class="texter">Pick method(s):</p><BR>
+            <form class="input_type">
+            <input class='checkbox' type="checkbox" value="each_char"> Inbetween each character.</input><BR>
+            <input class='checkbox' type="checkbox" value="around_space"> Surrounding each space.</input><BR>
+            <input class='checkbox' type="checkbox" value="at_period"> After each full stop (period).</input><BR>
+            <input class='checkbox' type="checkbox" value="low_oc"> Random low occurance.</input><BR>
+            <input class='checkbox' type="checkbox" value="mid_oc"> Random medium occurance.</input><BR>
+            <input class='checkbox' type="checkbox" value="high_oc"> Random high occurance.</input><BR><BR>
+            </form>
+
+            <p class="texter">Pick character(s) to use:</p><BR>
+            <form>
+                <input class='checkbox' type="checkbox" value="word_joiner"> Word Joiner.</option><BR>
+                <input class='checkbox' type="checkbox" value="inhibit_arabic_form"> Inhibit arabic form.</option><BR>
+                <input class='checkbox' type="checkbox" value="soft_hyphen"> Soft hyphen.</option><BR>
+                <input class='checkbox' type="checkbox" value="left_to_right_mark"> Left to right mark.</option><BR>
+                <input class='checkbox' type="checkbox" value="first_strong_isolate"> First strong isolate.</option><BR>
+                <input class='checkbox' type="checkbox" value="pop_directional_formatting"> Pop directional formatting.</option><BR>
+                <input class='checkbox' type="checkbox" value="pop_directional_isolate"> Pop directional isolate.</option><BR>
+                <input class='checkbox' type="checkbox" value="inhibit_symmetric_swapping"> Inhibit symmetric swapping.</option><BR>
+                <input class='checkbox' type="checkbox" value="zero_width_space"> Zero width space.</option><BR>
+                <input class='checkbox' type="checkbox" value="zero_width_non_joiner"> Zero width non-joiner.</option><BR>
+                <input class='checkbox' type="checkbox" value="zero_width_joiner"> Zero width joiner.</option><BR>
+                <input class='checkbox' type="checkbox" value="activate_arabic_form"> Activate arabic form.</option><BR>
+                <input class='checkbox' type="checkbox" value="nominal_digit_shapes"> Nominal digit shape.</option><BR>
+                <input class='checkbox' type="checkbox" value="invisible_times"> Invisible times.</option><BR>
+                <input class='checkbox' type="checkbox" value="invisible_seperator"> Invisible seperator.</option><BR>
+                <input class='checkbox' type="checkbox" value="invisible_plus"> Invisible plus.</option><BR>
+                <input class='checkbox' type="checkbox" value="national_digit_shapes"> National digit shapes.</option><BR>
+            </form>
+            <BR>
+
+
+        <textarea class="enter_text_here"></textarea><BR>
+
+        <button class="generate">Click to generate.</button>
+
+            <p class="texter">Results with the hidden spaces:</p>
+        <textarea class="results_here"></textarea><BR>
+
+        <button class="add_to_clipboard">Add text to clipboard.</button>
+
+            <p class="texter">Results Visualized:</p>
+
+        <div class="results_visualized">
+
+        </div><BR>
+
+        </div>
+    </div>
+</div>
+
+<!-- SECTION FOOTER -->
+<div class="section_border">
+    <div class="title_blue_dark_section" style="height:100% !important;">
+        <div class="texter">Text Watermark & Steganography kit by J. Denby (<a class='rab_link' href="LICENSE.txt">MIT license</a>)<BR>
+            All rights reserved &copy; 2024 <a class='rab_link' href="http://rabian.io">
+                Rabian.io</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
