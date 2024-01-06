@@ -18,7 +18,6 @@ document_ready(function() {
 	var char_4 = '\u202c';        // POP DIRECTIONAL FORMATTING
 	var char_5 = '\u2069';        // POP DIRECTIONAL ISOLATE NEW
 	var char_6 = '\u206a';        // U+206A INHIBIT SYMMETRIC SWAPPING GOOD
-	// var char_6 = '\u180E';       // U+180E MONGOLIAN VOWEL SEPARATOR
 	var char_7 = '\u200B';        // U+200B ZERO WIDTH SPACE
 	var char_8 = '\u200C';        // U+200C ZERO WIDTH NON-JOINER
 	var char_9 = '\u200D';        // U+200D ZERO WIDTH JOINER
@@ -126,7 +125,7 @@ document_ready(function() {
 		return finished_string
 	}
 
-// get all checkbox
+// Get all checkboxes
 	var all_checkbox = document.getElementsByClassName('checkbox');
 
 	var a_1 = all_checkbox[0];
@@ -135,7 +134,6 @@ document_ready(function() {
 	var a_4 = all_checkbox[3];
 	var a_5 = all_checkbox[4];
 	var a_6 = all_checkbox[5];
-
 	var b_de = all_checkbox[6];
 	var b_0 = all_checkbox[7];
 	var b_1 = all_checkbox[8];
@@ -164,19 +162,7 @@ document_ready(function() {
 
 	generate_button.addEventListener("click", function (event) {
 
-		//for (var i = 0; i < 23;i++){
-
-			//var check = document.getElementsByClassName('checkbox')[i];
-			//if (check.checked){
-			//	console.log(i + ' is checked');
-			//} else {
-			//	console.log (i + ' no');
-			//}
-		//}
-
 		var original_text = user_input_box.value;
-
-		// we make the invisible string based on inputs here
 		var invisible_string = '';
 
 		if (b_de.checked){
@@ -248,7 +234,7 @@ document_ready(function() {
 		}
 
 
-		//make sure both sections have options selected
+		// Makes sure both options are selected
 if (!invisible_string){
 	alert('You need to pick some characters to use.');
 	return
@@ -377,31 +363,14 @@ if (!user_input_box.value){
 					break;
 
 				}
-
-
-				//if (original_text_split[i] === )
-				//holder.push(split_array[i] + invis_chars);
 			}
 		}
 
-			original_text_viz = original_text_split.join('');
-
-
-
-
+		original_text_viz = original_text_split.join('');
 		results_visualized.innerHTML = original_text_viz;
-
-
-
-
-
-
 		}
-
 	});
-
-
-
+	
 	copy_to_clipboard_button.addEventListener("click", function (event) {
 
 		event.preventDefault();
@@ -409,10 +378,6 @@ if (!user_input_box.value){
 		document.execCommand("copy");
 		alert('Encoded message is on your clipboard now, paste it to target.');
 	});
-
-
-
-
 //end
 });
 
