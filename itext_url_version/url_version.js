@@ -168,12 +168,12 @@ function hexa_to_ascii(hex){
 	var hexe = get_code_as_array[15];
 	var hexf = get_code_as_array[16];
 
-	copy_this_combined_button.addEventListener("click", function (event) {
+copy_this_combined_button.addEventListener("click", function (event) {
 		alert('Encoded message is on your clipboard now, paste it to target.');
 		event.preventDefault();
 		target_output_textbox.select();
 		document.execCommand("copy");
-	});
+});
 
 // This small section sets target as an invisible text area as the target.
 	const good_array = [delimiter,hex0,hex1,hex2,hex3,hex4,hex5,hex6,hex7,hex8,hex9,hexa,hexb,hexc,hexd,hexe,hexf];
@@ -181,14 +181,14 @@ function hexa_to_ascii(hex){
 
 	invisible_invis_chars_box.value = fullycursed;
 
-	copy_all_invis_button.addEventListener("click", function (event) {
+copy_all_invis_button.addEventListener("click", function (event) {
 		alert('The full invisible string is on your clipboard.');
 		event.preventDefault();
 		invisible_invis_chars_box.select();
 		document.execCommand("copy");
-	});
+});
 
-	comb_button.addEventListener('click', function () {
+comb_button.addEventListener('click', function () {
 
 		var p1 = document.getElementsByClassName('this_with')[0].value;
 		var p2 = document.getElementsByClassName('and_this')[0].value;
@@ -200,27 +200,20 @@ function hexa_to_ascii(hex){
 		var buildah = "";
 		var allashexwithspace = "";
 
-		for (i = 0; i < vally.length; i++) {
+		for (var i = 0; i < vally.length; i++) {
 			var checking = ascii_to_hexa(vally.charAt(i));
 			if (checking.length === 2){
 				buildah = buildah + checking;
 			}
 			allashexwithspace = allashexwithspace + checking + 'x';
-		}
+}
 
 		var newval = allashexwithspace;
 		var newnewval = '';
 
+		for (var n = 0; n < newval.length; n++){
 
-
-
-
-
-
-		// TODO switch statement
-		for (i = 0; i < newval.length; i++){
-
-			switch(newval[i]) {
+			switch(newval[n]) {
 				case 'x':
 					newnewval += delimiter;
 					break;
@@ -285,7 +278,7 @@ function hexa_to_ascii(hex){
 
 
 
-	dec.addEventListener('click', function () {
+dec.addEventListener('click', function () {
 		var output_key_box_value  =  document.getElementsByClassName('pass_code_o')[0].value;
 		//alert(output_key_box_value);
 		var vall = document.getElementsByClassName('dec_src')[0].value;
@@ -373,7 +366,7 @@ function hexa_to_ascii(hex){
 		var magic_array = [];
 		var character_string = '';
 //Strips things that are not spaces character by character instead of regex
-		for (i = 0; i < vall.length; i++) {
+		for (var i = 0; i < vall.length; i++) {
 			switch (vall[i]) {
 				case delimiter:
 					magic_array.push(vall[i]);
@@ -427,12 +420,11 @@ function hexa_to_ascii(hex){
 					magic_array.push(vall[i]);
 					break;
 			}
-		}
+}
 
-
-// Converts detected spaces into actual hex characters
-		for (i = 0; i < magic_array.length; i++){
-			switch(magic_array[i]) {
+// Converts detected spaces into actual hex characters.
+		for (var j = 0; j < magic_array.length; j++){
+			switch(magic_array[j]) {
 				case delimiter:
 					character_string += 'x';
 					break;
@@ -493,13 +485,13 @@ function hexa_to_ascii(hex){
 		var as_hex_array_converted = character_string.split("x");
 		var final_array = [];
 // Checks length of each array value to make sure its not empty.
-		for (i = 0; i < as_hex_array_converted.length; i++) {
+		for (var x = 0; x < as_hex_array_converted.length; x++) {
 
-			if (as_hex_array_converted[i].length == 0) {
+			if (as_hex_array_converted[x].length == 0) {
 				console.log('Zero detected. Skipped.')
 			}
 			else {
-				final_array.push(hexa_to_ascii(as_hex_array_converted[i]));
+				final_array.push(hexa_to_ascii(as_hex_array_converted[x]));
 			}
 		}
 // Writes output.
