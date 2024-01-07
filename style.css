@@ -11,11 +11,25 @@ body {
     background-color: #0d1e81;
 }
 
+textarea{
+    width:99%;
+    height:200px;
+}
+
+b.tool_title{
+    color: #302b56;
+}
+
+strong{
+    color: rgba(48,43,86,0.85);
+    font-size: 18px;
+}
 
 .read_only{
     user-select: none;
     background-color:lightgray;
 }
+
 .tool{
     border: 2px solid black;
     padding: 10px !important;
@@ -23,11 +37,8 @@ body {
     margin-bottom: 5px !important;
     margin-top: 5px !important;
     cursor: pointer;
-    }
-
-b.tool_title{
-    color: #302b56;
 }
+
 
 .tool:hover{
     border: 2px solid black;
@@ -44,9 +55,7 @@ b.tool_title{
     padding-top:10px;
     padding-left:5px;
     padding-bottom:5px;
-
 }
-
 
 .texter_options{
 
@@ -61,13 +70,6 @@ b.tool_title{
     padding: 5px;
     border: 1px solid black;
 
-}
-
-
-textarea{
-
-    width:99%;
-    height:200px;
 }
 
 .pass_code_i{
@@ -96,16 +98,11 @@ textarea{
     text-indent: 0px;
 }
 
-
-
-b
-
 .combiner{
     width:100%;
     height:40px;
     background-color:#C1E1C1;
 }
-
 
 .container {
     width: calc(100vw - (100vw - 100%));
@@ -144,7 +141,6 @@ b
     pointer-events: none;
 }
 
-
 a:link {
     color: #302b56;
     text-decoration: none;
@@ -167,7 +163,6 @@ a.rab_link:link{
 a.rab_link:visited{
     color:blue !important;
 }
-
 
 div.title_blue_dark_section{
     position:relative;
@@ -195,9 +190,7 @@ div.title_blue_dark_section:before {
     margin-left: 0vw;
     top: 0px;
     left: -20px;
-
     bottom: 0px;
-
 }
 
 div.title_blue_dark_section:after {
@@ -205,8 +198,6 @@ div.title_blue_dark_section:after {
     position: absolute;
     background-color:red;
     background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
-
-
     z-index:+1;
     right:0vw;
     border-left: 0px;
@@ -214,14 +205,11 @@ div.title_blue_dark_section:after {
     top: 0px;
     left: -20px;
     width: 20px;
-
     bottom: 0px;
-
 }
 
 div.doc_section_dark{
     position:relative;
-
     margin-left: 10px;
     background: linear-gradient(315deg,rgb(114 146 195) 0%,rgb(93 118 158) 7%);
     padding-top: 10px;
@@ -229,11 +217,9 @@ div.doc_section_dark{
     padding-bottom: 10px;
     padding-right: 20px;
     border-left: 10px solid black;
-    margin-right:20px solid #6580A9;
-
+    margin-right: 20px solid #6580A9;
     transition: width 3s linear;
 }
-
 
 div.doc_section_dark:before {
     content: " ";
@@ -246,9 +232,7 @@ div.doc_section_dark:before {
     top: 0px;
     left: -20px;
     bottom: 0px;
-
 }
-
 
 ::-moz-selection { /* Code for Firefox */
     color: #1344FB !important;
@@ -304,15 +288,12 @@ div.doc_section_dark:before {
 
 div.blank_section{
     position:relative;
-
     margin-left: 10px;
     background-color:black;
     padding-top: 10px;
     padding-left: 10px;
-
     padding-right: 10px;
     border-left: 10px solid black;
-
     min-width: 320px;
     transition: width 3s linear;
 }
@@ -327,10 +308,8 @@ div.blank_section:before {
     margin-left: 10px solid black;
     top: 0px;
     left: -20px;
-
     bottom: 0px;
 }
-
 
 div.full_blank_section{
     position:relative;
@@ -356,18 +335,6 @@ div.full_blank_section:before {
     bottom: 0px;
 }
 
-
-
-
-strong{
-
-
-    color: rgba(48,43,86,0.85);
-    font-size: 18px;
-
-}
-
-
 div.doc_section_dark::before{
     -webkit-animation: blurr 10s infinite;
     -moz-animation:    blurr 10s infinite;
@@ -381,7 +348,6 @@ div.title_blue_dark_section::before{
     -o-animation:      blurr 10s infinite;
     animation:         blurr 10s infinite;
 }
-
 
 button{
     font-size:18px;
