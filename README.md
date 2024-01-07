@@ -1,7 +1,7 @@
 Text watermark & Steganography toolkit.
 
 This project is a hexadecimal zero-width character text steganography kit written in javascript (runs in browser). It can hide totally invisible messages or watermarks within normal text. Works perfectly with discord, and some email clients.
-	As it uses hexadecimal you can hide fairly long invisible messages in any text. It does not require an internet connection to work as it is fully local. 
+	 As it uses hexadecimal you can hide fairly long invisible messages in any text. It does not require an internet connection to work as it is fully local. 
 
 To use:
 Download, extract and open index.html.
