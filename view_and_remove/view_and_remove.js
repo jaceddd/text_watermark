@@ -16,8 +16,7 @@ document_ready(function() {
 	var char_3 = '\u2068';          // FIRST STRONG ISOLATE NEW
 	var char_4 = '\u202c';          // POP DIRECTIONAL FORMATTING
 	var char_5 = '\u2069';          // POP DIRECTIONAL ISOLATE NEW
-	var char_6 = '\u206a';       // U+206A INHIBIT SYMMETRIC SWAPPING GOOD
-	// var char_6 = '\u180E';       // U+180E MONGOLIAN VOWEL SEPARATOR
+	var char_6 = '\u206a';          // U+206A INHIBIT SYMMETRIC SWAPPING GOOD
 	var char_7 = '\u200B';          // U+200B ZERO WIDTH SPACE
 	var char_8 = '\u200C';          // U+200C ZERO WIDTH NON-JOINER
 	var char_9 = '\u200D';          // U+200D ZERO WIDTH JOINER
@@ -36,13 +35,11 @@ document_ready(function() {
 	visualize.addEventListener("click", function (event) {
 
 		var user_input_box = document.getElementsByClassName('enter_text_here')[0];
-		var stripped_output = document.getElementsByClassName('stripped_output')[0];
 		var results_visualized = document.getElementsByClassName('results_visualized')[0];
 		results_visualized.style.visibility = 'visible';
 
 		// Grabs the input text.
 		original_text = user_input_box.value;
-
 
 		// Replaces invisible characters one at a time with a for loop and stores them in original_text_split.
 		if (original_text){

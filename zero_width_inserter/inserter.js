@@ -28,7 +28,7 @@ document_ready(function() {
 	var char_e = '\u2064';        // U+2064 INVISIBLE PLUS
 	var char_f = '\u206E';        // U+206E NATIONAL DIGIT SHAPES
 
-	// inserts selected invisible string between each character
+
 	function each_char(target_string, invis_chars){
 		var split_array = target_string.split('');
 		var target_array = [];
@@ -39,7 +39,6 @@ document_ready(function() {
 		return finished_string
 	}
 
-	// inserts selected invisible string around each space
 	function around_space(target_string, invis_chars){
 		var split_array = target_string.split("");
 		var target_array = [];
