@@ -16,7 +16,7 @@ document_ready(function() {
 	var char_3 = '\u2068';          // FIRST STRONG ISOLATE NEW
 	var char_4 = '\u202c';          // POP DIRECTIONAL FORMATTING
 	var char_5 = '\u2069';          // POP DIRECTIONAL ISOLATE NEW
-	var char_6 = '\u206a';          // U+206A INHIBIT SYMMETRIC SWAPPING GOOD
+	var char_6 = '\u206a';          // U+206A INHIBIT SYMMETRIC SWAPPING
 	var char_7 = '\u200B';          // U+200B ZERO WIDTH SPACE
 	var char_8 = '\u200C';          // U+200C ZERO WIDTH NON-JOINER
 	var char_9 = '\u200D';          // U+200D ZERO WIDTH JOINER

@@ -189,7 +189,7 @@
 		copy_this_combined_button.addEventListener("click", function (event) {
 			alert('Encoded message is on your clipboard now, paste it to target.');
 			event.preventDefault();
-			invisible_invis_chars_box.select();
+			target_output_textbox.select();
 			document.execCommand("copy");
 		});
 
