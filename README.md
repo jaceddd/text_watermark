@@ -15,7 +15,7 @@ Abilities:
 - Watermark content with invisible characters to prevent theft and plagiarism.
 - Seed text with zero width characters to avoid AI detectors, plagiarism checkers and deter editing and rewriters.
 - Has potential to poison AI training data.
-- Can spam text with spaces to potetially bypass spam email filters.
+- Can spam text with spaces to potetially bypass spam email filters. Or strip the spaces.
 - Add invisible watermarks whenever somebody copy pastes anything from your website.
 - Can be used on some badly coded services to have a totally invisible name or description.
 - Generate meta and h1 tags for your website with an invisible code.
