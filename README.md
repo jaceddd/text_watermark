@@ -10,7 +10,8 @@ There is also a live version if you just want to play with it.
 https://rabian.io/text_watermark/
 
 Abilities:
-- Encode and decode invisible encrypted messages in plain sight, via discord, email and other types of text communcation. 
+- Encode and decode invisible encrypted messages in plain sight, via discord, email and other types of text communcation.
+- Works with just HTML, CSS and JS, easy to use.
 - Watermark content with invisible characters to prevent theft and plagiarism.
 - Seed text with zero width characters to avoid AI detectors, plagiarism checkers and deter editing and rewriters.
 - Has potential to poison AI training data.
@@ -25,6 +26,7 @@ Abilities:
 Problems:
 - Some services filter out invisible characters. Use the inluded tester at the bottom of the various pages to see how the characters interact with a service before use.
 - The encryption is difficult but not impossible to crack. The key code has 355687430000000 possible combinations, but a well designed cracker could break this (if anybody is up for the challenge it would be a fun project).
+- As this project uses a lot more invisible characters than most similar projects, it's much more likly that one of the characters will cause problems so it's potentially more unstable. On the flipside this makes it harder to crack and it can encode much more data in a shorter message.
 
 Contributions & education:
 - If anybody would like to add to or improve this toolkit feel free.
