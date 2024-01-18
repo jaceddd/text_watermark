@@ -25,6 +25,28 @@ document_ready(function() {
 	var button17  =  document.getElementsByClassName('char17')[0];
 	var all_of_them  =  document.getElementsByClassName('all')[0];
 
+	var button18  =  document.getElementsByClassName('char18')[0];
+	var button19  =  document.getElementsByClassName('char19')[0];
+	var button20  =  document.getElementsByClassName('char20')[0];
+	var button21  =  document.getElementsByClassName('char21')[0];
+	var button22  =  document.getElementsByClassName('char22')[0];
+	var button23  =  document.getElementsByClassName('char23')[0];
+	var button24  =  document.getElementsByClassName('char24')[0];
+	var button25  =  document.getElementsByClassName('char25')[0];
+	var button26  =  document.getElementsByClassName('char26')[0];
+	var button27  =  document.getElementsByClassName('char27')[0];
+	var button28  =  document.getElementsByClassName('char28')[0];
+	var button29  =  document.getElementsByClassName('char29')[0];
+	var button30  =  document.getElementsByClassName('char30')[0];
+	var button31  =  document.getElementsByClassName('char31')[0];
+	var button32  =  document.getElementsByClassName('char32')[0];
+	var button33  =  document.getElementsByClassName('char33')[0];
+	var button34  =  document.getElementsByClassName('char34')[0];
+	var button35  =  document.getElementsByClassName('char35')[0];
+	var button36  =  document.getElementsByClassName('char36')[0];
+	var button37  =  document.getElementsByClassName('char37')[0];
+	var all_of_the_extras = document.getElementsByClassName('all_extras')[0];
+
 	button1.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u2060';
@@ -210,6 +232,7 @@ document_ready(function() {
 
 
 
+
 	button18.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u034F';
@@ -240,7 +263,7 @@ document_ready(function() {
 		alert('KHMER VOWEL INHERENT AQ added to clipboard.');
 	});
 
-   	button21.addEventListener("click", function (event) {
+	button21.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u17B5';
 		document.body.appendChild(textarea);
@@ -413,6 +436,16 @@ document_ready(function() {
 		document.execCommand("copy");
 		document.body.removeChild(textarea);
 		alert('MUSICAL SYMBOL END PHRASE added to clipboard.');
+	});
+
+	all_of_the_extras.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u034F' + '\u061C' + '\u17B4' + '\u17B5' + '\u2061' + '\u206B' + '\u3000' + '\u2800' + '\u3164' + '\uFEFF' + '\uFFA0' + '\u{1D159}' + '\u{1D173}' + '\u{1D175}' + '\u{1D177}' + '\u{1D179}';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('All of them added to clipboard.');
 	});
 
 
