@@ -31,20 +31,16 @@ document_ready(function() {
 	var button21  =  document.getElementsByClassName('char21')[0];
 	var button22  =  document.getElementsByClassName('char22')[0];
 	var button23  =  document.getElementsByClassName('char23')[0];
-	var button24  =  document.getElementsByClassName('char24')[0];
-	var button25  =  document.getElementsByClassName('char25')[0];
-	var button26  =  document.getElementsByClassName('char26')[0];
-	var button27  =  document.getElementsByClassName('char27')[0];
-	var button28  =  document.getElementsByClassName('char28')[0];
-	var button29  =  document.getElementsByClassName('char29')[0];
-	var button30  =  document.getElementsByClassName('char30')[0];
-	var button31  =  document.getElementsByClassName('char31')[0];
-	var button32  =  document.getElementsByClassName('char32')[0];
-	var button33  =  document.getElementsByClassName('char33')[0];
-	var button34  =  document.getElementsByClassName('char34')[0];
-	var button35  =  document.getElementsByClassName('char35')[0];
-	var button36  =  document.getElementsByClassName('char36')[0];
-	var button37  =  document.getElementsByClassName('char37')[0];
+	var button24  =  document.getElementsByClassName('char26')[0];
+	var button25  =  document.getElementsByClassName('char27')[0];
+	var button26  =  document.getElementsByClassName('char30')[0];
+	var button27  =  document.getElementsByClassName('char31')[0];
+	var button28  =  document.getElementsByClassName('char32')[0];
+	var button29  =  document.getElementsByClassName('char33')[0];
+	var button30  =  document.getElementsByClassName('char34')[0];
+	var button31  =  document.getElementsByClassName('char35')[0];
+	var button32  =  document.getElementsByClassName('char36')[0];
+	var button33  =  document.getElementsByClassName('char37')[0];
 
 	var all_of_the_extras = document.getElementsByClassName('all_extras')[0];
 
@@ -297,27 +293,6 @@ document_ready(function() {
 
 	button24.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
-		textarea.textContent = '\u3000';
-		document.body.appendChild(textarea);
-		textarea.select();
-		document.execCommand("copy");
-		document.body.removeChild(textarea);
-		alert('IDEOGRAPHIC SPACE added to clipboard.');
-	});
-
-
-	button25.addEventListener("click", function (event) {
-		var textarea = document.createElement("textarea");
-		textarea.textContent = '\u2800';
-		document.body.appendChild(textarea);
-		textarea.select();
-		document.execCommand("copy");
-		document.body.removeChild(textarea);
-		alert('BRAILLE PATTERN BLANK added to clipboard.');
-	});
-
-	button26.addEventListener("click", function (event) {
-		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u3164';
 		document.body.appendChild(textarea);
 		textarea.select();
@@ -326,7 +301,7 @@ document_ready(function() {
 		alert('HANGUL FILLER added to clipboard.');
 	});
 
-	button27.addEventListener("click", function (event) {
+	button25.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\uFEFF';
 		document.body.appendChild(textarea);
@@ -337,28 +312,7 @@ document_ready(function() {
 	});
 
 
-	button28.addEventListener("click", function (event) {
-		var textarea = document.createElement("textarea");
-		textarea.textContent = '\uFFA0';
-		document.body.appendChild(textarea);
-		textarea.select();
-		document.execCommand("copy");
-		document.body.removeChild(textarea);
-		alert('HALFWIDTH HANGUL added to clipboard.');
-	});
-
-	button29.addEventListener("click", function (event) {
-		var textarea = document.createElement("textarea");
-		textarea.textContent = '\u{1D159}';
-		document.body.appendChild(textarea);
-		textarea.select();
-		document.execCommand("copy");
-		document.body.removeChild(textarea);
-		alert('MUSICAL SYMBOL NULL NOTEHEAD added to clipboard.');
-	});
-
-
-	button30.addEventListener("click", function (event) {
+	button26.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u{1D173}';
 		document.body.appendChild(textarea);
@@ -368,7 +322,7 @@ document_ready(function() {
 		alert('MUSICAL SYMBOL BEGIN BEAM added to clipboard.');
 	});
 
-	button31.addEventListener("click", function (event) {
+	button27.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u{1D175}';
 		document.body.appendChild(textarea);
@@ -378,7 +332,7 @@ document_ready(function() {
 		alert('MUSICAL SYMBOL BEGIN TIE added to clipboard.');
 	});
 
-	button32.addEventListener("click", function (event) {
+	button28.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u{1D177}';
 		document.body.appendChild(textarea);
@@ -389,7 +343,7 @@ document_ready(function() {
 	});
 
 
-	button33.addEventListener("click", function (event) {
+	button29.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u{1D179}';
 		document.body.appendChild(textarea);
@@ -399,7 +353,7 @@ document_ready(function() {
 		alert('MUSICAL SYMBOL BEGIN PHRASE added to clipboard.');
 	});
 
-	button34.addEventListener("click", function (event) {
+	button30.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u{1D174}';
 		document.body.appendChild(textarea);
@@ -409,7 +363,7 @@ document_ready(function() {
 		alert('MUSICAL SYMBOL END BEAM added to clipboard.');
 	});
 
-	button35.addEventListener("click", function (event) {
+	button31.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u{1D176}';
 		document.body.appendChild(textarea);
@@ -419,7 +373,7 @@ document_ready(function() {
 		alert('MUSICAL SYMBOL END TIE added to clipboard.');
 	});
 
-	button36.addEventListener("click", function (event) {
+	button32.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u{1D178}';
 		document.body.appendChild(textarea);
@@ -429,7 +383,7 @@ document_ready(function() {
 		alert('MUSICAL SYMBOL END SLUR added to clipboard.');
 	});
 
-	button37.addEventListener("click", function (event) {
+	button33.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u{1D17A}';
 		document.body.appendChild(textarea);
@@ -441,7 +395,7 @@ document_ready(function() {
 
 	all_of_the_extras.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
-		textarea.textContent = '\u034F' + '\u061C' + '\u17B4' + '\u17B5' + '\u2061' + '\u206B' + '\u3000' + '\u2800' + '\u3164' + '\uFEFF' + '\uFFA0' + '\u{1D159}' + '\u{1D173}' + '\u{1D175}' + '\u{1D177}' + '\u{1D179}' + '\u{1D174}' + '\u{1D176}' + '\u{1D178}' + '\u{1D17A}';
+		textarea.textContent = '\u034F' + '\u061C' + '\u17B4' + '\u17B5' + '\u2061' + '\u206B' + '\u3164' + '\uFEFF' + '\u{1D173}' + '\u{1D175}' + '\u{1D177}' + '\u{1D179}' + '\u{1D174}' + '\u{1D176}' + '\u{1D178}' + '\u{1D17A}';
 
 		document.body.appendChild(textarea);
 		textarea.select();
