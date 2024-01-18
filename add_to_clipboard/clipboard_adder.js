@@ -45,6 +45,7 @@ document_ready(function() {
 	var button35  =  document.getElementsByClassName('char35')[0];
 	var button36  =  document.getElementsByClassName('char36')[0];
 	var button37  =  document.getElementsByClassName('char37')[0];
+
 	var all_of_the_extras = document.getElementsByClassName('all_extras')[0];
 
 	button1.addEventListener("click", function (event) {
