@@ -441,12 +441,13 @@ document_ready(function() {
 
 	all_of_the_extras.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
-		textarea.textContent = '\u034F' + '\u061C' + '\u17B4' + '\u17B5' + '\u2061' + '\u206B' + '\u3000' + '\u2800' + '\u3164' + '\uFEFF' + '\uFFA0' + '\u{1D159}' + '\u{1D173}' + '\u{1D175}' + '\u{1D177}' + '\u{1D179}';
+		textarea.textContent = '\u034F' + '\u061C' + '\u17B4' + '\u17B5' + '\u2061' + '\u206B' + '\u3000' + '\u2800' + '\u3164' + '\uFEFF' + '\uFFA0' + '\u{1D159}' + '\u{1D173}' + '\u{1D175}' + '\u{1D177}' + '\u{1D179}' + '\u{1D174}' + '\u{1D176}' + '\u{1D178}' + '\u{1D17A}';
+
 		document.body.appendChild(textarea);
 		textarea.select();
 		document.execCommand("copy");
 		document.body.removeChild(textarea);
-		alert('All of them added to clipboard.');
+		alert('All the weird extras added to clipboard.');
 	});
 
 
