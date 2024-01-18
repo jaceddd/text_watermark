@@ -204,4 +204,256 @@ document_ready(function() {
 		document.body.removeChild(textarea);
 		alert('All of them added to clipboard.');
 	});
-});
+
+
+
+
+
+
+	button18.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u034F';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('COMBINING GRAPHEME JOINER added to clipboard.');
+	});
+
+	button19.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u061C';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('ARABIC LETTER MARK added to clipboard.');
+	});
+
+	button20.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u17B4';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('KHMER VOWEL INHERENT AQ added to clipboard.');
+	});
+
+   	button21.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u17B5';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('KHMER VOWEL INHERENT AA added to clipboard.');
+	});
+
+
+	button22.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u2061';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('FUNCTION APPLICATION added to clipboard.');
+	});
+
+	button23.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u206B';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('ACTIVATE SYMMETRIC SWAPPING added to clipboard.');
+	});
+
+	button24.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u3000';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('IDEOGRAPHIC SPACE added to clipboard.');
+	});
+
+
+	button25.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u2800';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('BRAILLE PATTERN BLANK added to clipboard.');
+	});
+
+	button26.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u3164';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('HANGUL FILLER added to clipboard.');
+	});
+
+	button27.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\uFEFF';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('ZERO WIDTH NO-BREAK SPACE added to clipboard.');
+	});
+
+
+	button28.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\uFFA0';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('HALFWIDTH HANGUL added to clipboard.');
+	});
+
+	button29.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u{1D159}';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('MUSICAL SYMBOL NULL NOTEHEAD added to clipboard.');
+	});
+
+
+	button30.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u{1D173}';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('MUSICAL SYMBOL BEGIN BEAM added to clipboard.');
+	});
+
+	button31.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u{1D175}';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('MUSICAL SYMBOL BEGIN TIE added to clipboard.');
+	});
+
+	button32.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u{1D177}';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('MUSICAL SYMBOL BEGIN SLUR added to clipboard.');
+	});
+
+
+	button33.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u{1D179}';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('MUSICAL SYMBOL BEGIN PHRASE added to clipboard.');
+	});
+
+	button34.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u{1D174}';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('MUSICAL SYMBOL END BEAM added to clipboard.');
+	});
+
+	button35.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u{1D176}';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('MUSICAL SYMBOL END TIE added to clipboard.');
+	});
+
+	button36.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u{1D178}';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('MUSICAL SYMBOL END SLUR added to clipboard.');
+	});
+
+	button37.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u{1D17A}';
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('MUSICAL SYMBOL END PHRASE added to clipboard.');
+	});
+
+
+
+
+	/*
+		var b = '\u034F';       //U+034F COMBINING GRAPHEME JOINER   GOOD USED
+			var c = '\u061C';       //U+061C ARABIC LETTER MARK          GOOD USED
+
+	var d = '\u17B4';       //U+17B4 KHMER VOWEL INHERENT AQ     GOOD USED
+
+	var e = '\u17B5';       //U+17B5 KHMER VOWEL INHERENT AA     GOOD USED
+	var k = '\u2061';       // U+2061 FUNCTION APPLICATION       GOOD
+		var p = '\u206B';       // U+206B ACTIVATE SYMMETRIC SWAPPING GOOD
+			var u = '\u3000';       // U+3000 IDEOGRAPHIC SPACE
+
+
+
+	var v = '\u2800';       // U+2800 BRAILLE PATTERN BLANK
+
+	var w = '\u3164';       // U+3164 HANGUL FILLER
+	var x = '\uFEFF';       // U+FEFF ZERO WIDTH NO-BREAK SPACE GOOD         USED
+
+
+	var y = '\uFFA0';       // U+FFA0 HALFWIDTH HANGUL FILLER
+	var z = '\u{1D159}';    // MUSICAL SYMBOL NULL NOTEHEAD bad(?)
+
+	var a0 = '\u{1D173}';   // U+1D173 MUSICAL SYMBOL BEGIN BEAM GOOD
+	var c0 = '\u{1D175}';   // U+1D175 MUSICAL SYMBOL BEGIN TIE GOOD
+	var e0 = '\u{1D177}';   // U+1D177 MUSICAL SYMBOL BEGIN SLUR GOOD
+	var g0 = '\u{1D179}';   // U+1D179 MUSICAL SYMBOL BEGIN PHRASE GOOD
+
+	var b0 = '\u{1D174}';   // U+1D174 MUSICAL SYMBOL END BEAM GOOD
+	var d0 = '\u{1D176}';   // U+1D176 MUSICAL SYMBOL END TIE GOOD
+	var f0 = '\u{1D178}';   // U+1D178 MUSICAL SYMBOL END SLUR GOOD
+	var h0 = '\u{1D17A}';   // U+1D17A MUSICAL SYMBOL END PHRASE
+*/
+
+
+
+
+
+
+})
