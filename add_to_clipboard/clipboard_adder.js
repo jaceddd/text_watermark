@@ -57,7 +57,7 @@ document_ready(function() {
 
 	button4.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
-		textarea.textContent = '\u2060';
+		textarea.textContent = '\u200E';
 		document.body.appendChild(textarea);
 		textarea.select();
 		document.execCommand("copy");
