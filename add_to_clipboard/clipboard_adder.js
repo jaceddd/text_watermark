@@ -416,44 +416,4 @@ document_ready(function() {
 	});
 
 
-
-
-	/*
-		var b = '\u034F';       //U+034F COMBINING GRAPHEME JOINER   GOOD USED
-			var c = '\u061C';       //U+061C ARABIC LETTER MARK          GOOD USED
-
-	var d = '\u17B4';       //U+17B4 KHMER VOWEL INHERENT AQ     GOOD USED
-
-	var e = '\u17B5';       //U+17B5 KHMER VOWEL INHERENT AA     GOOD USED
-	var k = '\u2061';       // U+2061 FUNCTION APPLICATION       GOOD
-		var p = '\u206B';       // U+206B ACTIVATE SYMMETRIC SWAPPING GOOD
-			var u = '\u3000';       // U+3000 IDEOGRAPHIC SPACE
-
-
-
-	var v = '\u2800';       // U+2800 BRAILLE PATTERN BLANK
-
-	var w = '\u3164';       // U+3164 HANGUL FILLER
-	var x = '\uFEFF';       // U+FEFF ZERO WIDTH NO-BREAK SPACE GOOD         USED
-
-
-	var y = '\uFFA0';       // U+FFA0 HALFWIDTH HANGUL FILLER
-	var z = '\u{1D159}';    // MUSICAL SYMBOL NULL NOTEHEAD bad(?)
-
-	var a0 = '\u{1D173}';   // U+1D173 MUSICAL SYMBOL BEGIN BEAM GOOD
-	var c0 = '\u{1D175}';   // U+1D175 MUSICAL SYMBOL BEGIN TIE GOOD
-	var e0 = '\u{1D177}';   // U+1D177 MUSICAL SYMBOL BEGIN SLUR GOOD
-	var g0 = '\u{1D179}';   // U+1D179 MUSICAL SYMBOL BEGIN PHRASE GOOD
-
-	var b0 = '\u{1D174}';   // U+1D174 MUSICAL SYMBOL END BEAM GOOD
-	var d0 = '\u{1D176}';   // U+1D176 MUSICAL SYMBOL END TIE GOOD
-	var f0 = '\u{1D178}';   // U+1D178 MUSICAL SYMBOL END SLUR GOOD
-	var h0 = '\u{1D17A}';   // U+1D17A MUSICAL SYMBOL END PHRASE
-*/
-
-
-
-
-
-
 })
