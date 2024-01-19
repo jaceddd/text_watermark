@@ -35,7 +35,7 @@ document_ready(function() {
 	var button24  =  document.getElementsByClassName('char25')[0];
 	var button25  =  document.getElementsByClassName('char26')[0];
 	var button26  =  document.getElementsByClassName('char27')[0];
-	var button27  =  docZument.getElementsByClassName('char28')[0];
+	var button27  =  document.getElementsByClassName('char28')[0];
 	var button28  =  document.getElementsByClassName('char29')[0];
 	var button29  =  document.getElementsByClassName('char30')[0];
 
