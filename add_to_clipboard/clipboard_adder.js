@@ -40,6 +40,7 @@ document_ready(function() {
 	var button29  =  document.getElementsByClassName('char29')[0];
 
 	var all_of_the_extras = document.getElementsByClassName('all_extras')[0];
+	var everything = document.getElementsByClassName('everything')[0];
 
 	button1.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
@@ -351,6 +352,17 @@ document_ready(function() {
 	});
 
 	all_of_the_extras.addEventListener("click", function (event) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = '\u2060' + '\u206C' + '\u00AD' + '\u200E' + '\u2068' + '\u202c' + '\u2069' + '\u206a' + '\u200B' + '\u200C' + '\u200D' + '\u206D' + '\u206F' + '\u2062' + '\u2063' + '\u2064' + '\u206E' + '\u034F' + '\u061C' + '\u2061' + '\u206B' + '\uFEFF' + '\u{1D173}' + '\u{1D175}' + '\u{1D177}' + '\u{1D179}' + '\u{1D174}' + '\u{1D176}' + '\u{1D178}' + '\u{1D17A}';
+
+		document.body.appendChild(textarea);
+		textarea.select();
+		document.execCommand("copy");
+		document.body.removeChild(textarea);
+		alert('EVERYTHING has been added to clipboard');
+	});
+
+	everything.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u034F' + '\u061C' + '\u2061' + '\u206B' + '\uFEFF' + '\u{1D173}' + '\u{1D175}' + '\u{1D177}' + '\u{1D179}' + '\u{1D174}' + '\u{1D176}' + '\u{1D178}' + '\u{1D17A}';
 
