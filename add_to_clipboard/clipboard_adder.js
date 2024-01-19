@@ -26,18 +26,18 @@ document_ready(function() {
 	var all_of_them  =  document.getElementsByClassName('all')[0];
 
 	var button18  =  document.getElementsByClassName('char18')[0];
-	var button19  =  document.getElementsByClassName('char20')[0];
-	var button20  =  document.getElementsByClassName('char21')[0];
+	var button19  =  document.getElementsByClassName('char19')[0];
+	var button20  =  document.getElementsByClassName('char20')[0];
 
-	var button21  =  document.getElementsByClassName('char22')[0];
-	var button22  =  document.getElementsByClassName('char23')[0];
-	var button23  =  document.getElementsByClassName('char24')[0];
-	var button24  =  document.getElementsByClassName('char25')[0];
-	var button25  =  document.getElementsByClassName('char26')[0];
-	var button26  =  document.getElementsByClassName('char27')[0];
-	var button27  =  document.getElementsByClassName('char28')[0];
-	var button28  =  document.getElementsByClassName('char29')[0];
-	var button29  =  document.getElementsByClassName('char30')[0];
+	var button21  =  document.getElementsByClassName('char21')[0];
+	var button22  =  document.getElementsByClassName('char22')[0];
+	var button23  =  document.getElementsByClassName('char23')[0];
+	var button24  =  document.getElementsByClassName('char24')[0];
+	var button25  =  document.getElementsByClassName('char25')[0];
+	var button26  =  document.getElementsByClassName('char26')[0];
+	var button27  =  document.getElementsByClassName('char27')[0];
+	var button28  =  document.getElementsByClassName('char28')[0];
+	var button29  =  document.getElementsByClassName('char29')[0];
 
 	var all_of_the_extras = document.getElementsByClassName('all_extras')[0];
 
