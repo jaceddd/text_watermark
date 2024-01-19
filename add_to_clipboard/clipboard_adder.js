@@ -29,9 +29,9 @@ document_ready(function() {
 	var button19  =  document.getElementsByClassName('char19')[0];
 	var button20  =  document.getElementsByClassName('char20')[0];
 	var button21  =  document.getElementsByClassName('char21')[0];
+
 	var button22  =  document.getElementsByClassName('char22')[0];
 	var button23  =  document.getElementsByClassName('char23')[0];
-
 	var button24  =  document.getElementsByClassName('char24')[0];
 	var button25  =  document.getElementsByClassName('char25')[0];
 	var button26  =  document.getElementsByClassName('char26')[0];
@@ -39,8 +39,6 @@ document_ready(function() {
 	var button28  =  document.getElementsByClassName('char28')[0];
 	var button29  =  document.getElementsByClassName('char29')[0];
 	var button30  =  document.getElementsByClassName('char30')[0];
-	var button31  =  document.getElementsByClassName('char31')[0];
-	var button32  =  document.getElementsByClassName('char32')[0];
 
 	var all_of_the_extras = document.getElementsByClassName('all_extras')[0];
 
@@ -250,25 +248,6 @@ document_ready(function() {
 		alert('ARABIC LETTER MARK added to clipboard.');
 	});
 
-	button20.addEventListener("click", function (event) {
-		var textarea = document.createElement("textarea");
-		textarea.textContent = '\u17B4';
-		document.body.appendChild(textarea);
-		textarea.select();
-		document.execCommand("copy");
-		document.body.removeChild(textarea);
-		alert('KHMER VOWEL INHERENT AQ added to clipboard.');
-	});
-
-	button21.addEventListener("click", function (event) {
-		var textarea = document.createElement("textarea");
-		textarea.textContent = '\u17B5';
-		document.body.appendChild(textarea);
-		textarea.select();
-		document.execCommand("copy");
-		document.body.removeChild(textarea);
-		alert('KHMER VOWEL INHERENT AA added to clipboard.');
-	});
 
 
 	button22.addEventListener("click", function (event) {
@@ -385,7 +364,7 @@ document_ready(function() {
 
 	all_of_the_extras.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
-		textarea.textContent = '\u034F' + '\u061C' + '\u17B4' + '\u17B5' + '\u2061' + '\u206B' + '\uFEFF' + '\u{1D173}' + '\u{1D175}' + '\u{1D177}' + '\u{1D179}' + '\u{1D174}' + '\u{1D176}' + '\u{1D178}' + '\u{1D17A}';
+		textarea.textContent = '\u034F' + '\u061C' + '\u2061' + '\u206B' + '\uFEFF' + '\u{1D173}' + '\u{1D175}' + '\u{1D177}' + '\u{1D179}' + '\u{1D174}' + '\u{1D176}' + '\u{1D178}' + '\u{1D17A}';
 
 		document.body.appendChild(textarea);
 		textarea.select();
@@ -395,4 +374,5 @@ document_ready(function() {
 	});
 
 
-})
+});
+
