@@ -31,6 +31,7 @@ document_ready(function() {
 	var button21  =  document.getElementsByClassName('char21')[0];
 	var button22  =  document.getElementsByClassName('char22')[0];
 	var button23  =  document.getElementsByClassName('char23')[0];
+
 	var button24  =  document.getElementsByClassName('char24')[0];
 	var button25  =  document.getElementsByClassName('char25')[0];
 	var button26  =  document.getElementsByClassName('char26')[0];
@@ -40,7 +41,6 @@ document_ready(function() {
 	var button30  =  document.getElementsByClassName('char30')[0];
 	var button31  =  document.getElementsByClassName('char31')[0];
 	var button32  =  document.getElementsByClassName('char32')[0];
-	var button33  =  document.getElementsByClassName('char33')[0];
 
 	var all_of_the_extras = document.getElementsByClassName('all_extras')[0];
 
@@ -293,16 +293,6 @@ document_ready(function() {
 
 	button24.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
-		textarea.textContent = '\u3164';
-		document.body.appendChild(textarea);
-		textarea.select();
-		document.execCommand("copy");
-		document.body.removeChild(textarea);
-		alert('HANGUL FILLER added to clipboard.');
-	});
-
-	button25.addEventListener("click", function (event) {
-		var textarea = document.createElement("textarea");
 		textarea.textContent = '\uFEFF';
 		document.body.appendChild(textarea);
 		textarea.select();
@@ -312,7 +302,7 @@ document_ready(function() {
 	});
 
 
-	button26.addEventListener("click", function (event) {
+	button25.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u{1D173}';
 		document.body.appendChild(textarea);
@@ -322,7 +312,7 @@ document_ready(function() {
 		alert('MUSICAL SYMBOL BEGIN BEAM added to clipboard.');
 	});
 
-	button27.addEventListener("click", function (event) {
+	button26.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u{1D175}';
 		document.body.appendChild(textarea);
@@ -332,7 +322,7 @@ document_ready(function() {
 		alert('MUSICAL SYMBOL BEGIN TIE added to clipboard.');
 	});
 
-	button28.addEventListener("click", function (event) {
+	button27.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u{1D177}';
 		document.body.appendChild(textarea);
@@ -343,7 +333,7 @@ document_ready(function() {
 	});
 
 
-	button29.addEventListener("click", function (event) {
+	button28.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u{1D179}';
 		document.body.appendChild(textarea);
@@ -353,7 +343,7 @@ document_ready(function() {
 		alert('MUSICAL SYMBOL BEGIN PHRASE added to clipboard.');
 	});
 
-	button30.addEventListener("click", function (event) {
+	button29.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u{1D174}';
 		document.body.appendChild(textarea);
@@ -363,7 +353,7 @@ document_ready(function() {
 		alert('MUSICAL SYMBOL END BEAM added to clipboard.');
 	});
 
-	button31.addEventListener("click", function (event) {
+	button30.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u{1D176}';
 		document.body.appendChild(textarea);
@@ -373,7 +363,7 @@ document_ready(function() {
 		alert('MUSICAL SYMBOL END TIE added to clipboard.');
 	});
 
-	button32.addEventListener("click", function (event) {
+	button31.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u{1D178}';
 		document.body.appendChild(textarea);
@@ -383,7 +373,7 @@ document_ready(function() {
 		alert('MUSICAL SYMBOL END SLUR added to clipboard.');
 	});
 
-	button33.addEventListener("click", function (event) {
+	button32.addEventListener("click", function (event) {
 		var textarea = document.createElement("textarea");
 		textarea.textContent = '\u{1D17A}';
 		document.body.appendChild(textarea);
