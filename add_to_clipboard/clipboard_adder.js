@@ -370,7 +370,7 @@ document_ready(function() {
 		textarea.select();
 		document.execCommand("copy");
 		document.body.removeChild(textarea);
-		alert('All the weird extras added to clipboard.');
+		alert('EVERYTHING added to clipboard.');
 	});
 
 
