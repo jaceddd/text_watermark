@@ -19,8 +19,8 @@ document_ready(function() {
 	const hex7 = '\u200B';    // U+200B ZERO WIDTH SPACE              GOOD
 	const hex8 = '\u200C';    // U+200C ZERO WIDTH NON-JOINER         GOOD
 	const hex9 = '\u200D';    // U+200D ZERO WIDTH JOINER             GOOD
-	const hexb = '\u206D';    // U+206D ACTIVATE ARABIC FORM SHAPING  GOOD
-	const hexa = '\u206F';    // U+206F NOMINAL DIGIT SHAPES          GOOD
+	const hexa = '\u206D';    // U+206D ACTIVATE ARABIC FORM SHAPING  GOOD
+	const hexb = '\u206F';    // U+206F NOMINAL DIGIT SHAPES          GOOD
 	const hexc = '\u2062';    // U+2062 INVISIBLE TIMES               GOOD
 	const hexd = '\u2063';    // U+2063 INVISIBLE SEPARATOR           GOOD
 	const hexe = '\u2064';    // U+2064 INVISIBLE PLUS                GOOD

@@ -57,8 +57,8 @@ function hexa_to_ascii(hex){
 	const hex7_ori = '\u200B';    // U+200B ZERO WIDTH SPACE              GOOD
 	const hex8_ori = '\u200C';    // U+200C ZERO WIDTH NON-JOINER         GOOD
 	const hex9_ori = '\u200D';    // U+200D ZERO WIDTH JOINER             GOOD
-	const hexb_ori = '\u206D';    // U+206D ACTIVATE ARABIC FORM SHAPING  GOOD
-	const hexa_ori = '\u206F';    // U+206F NOMINAL DIGIT SHAPES          GOOD
+	const hexa_ori = '\u206D';    // U+206D ACTIVATE ARABIC FORM SHAPING  GOOD
+	const hexb_ori = '\u206F';    // U+206F NOMINAL DIGIT SHAPES          GOOD
 	const hexc_ori = '\u2062';    // U+2062 INVISIBLE TIMES               GOOD
 	const hexd_ori = '\u2063';    // U+2063 INVISIBLE SEPARATOR           GOOD
 	const hexe_ori = '\u2064';    // U+2064 INVISIBLE PLUS                GOOD
@@ -161,8 +161,8 @@ function hexa_to_ascii(hex){
 	var hex7 = get_code_as_array[8];
 	var hex8 = get_code_as_array[9];
 	var hex9 = get_code_as_array[10];
-	var hexb = get_code_as_array[11];
-	var hexa = get_code_as_array[12];
+	var hexa = get_code_as_array[11];
+	var hexb = get_code_as_array[12];
 	var hexc = get_code_as_array[13];
 	var hexd = get_code_as_array[14];
 	var hexe = get_code_as_array[15];
@@ -356,8 +356,8 @@ dec.addEventListener('click', function () {
 		var hex7 = get_code_as_array[8];
 		var hex8 = get_code_as_array[9];
 		var hex9 = get_code_as_array[10];
-		var hexb = get_code_as_array[11];
-		var hexa = get_code_as_array[12];
+		var hexa = get_code_as_array[11];
+		var hexb = get_code_as_array[12];
 		var hexc = get_code_as_array[13];
 		var hexd = get_code_as_array[14];
 		var hexe = get_code_as_array[15];
