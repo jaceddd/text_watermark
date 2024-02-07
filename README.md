@@ -38,4 +38,5 @@ Extra content:
 - I plan to include an extra weird character section when I get round to it and maybe an advanced version of Zalgo. I found many more zero width characters too, some of them can be very problematic. I will eventually add them all so other people can be made aware of them. I am currently working on a version with better encryption as I have discovered extra working characters.
 
 Example:
-- Try decoding this line with text watermark original⁩​⁠⁪⁩⁠⁪⁢⁠⁪⁢⁠‎⁬⁠⁪‬⁠⁪⁮⁠⁪⁤⁠⁪⁩⁠‎⁬⁠​‍⁠⁪⁮⁠​⁩⁠‎⁬⁠⁪⁣⁠⁪­⁠⁪⁤⁠⁪­⁠⁪​⁠⁪⁩⁠⁪‬⁠‎⁬⁠​‬⁠⁪⁮⁠‎⁬⁠⁪‬⁠⁪⁩⁠⁪⁨⁠⁪⁮⁠⁪‬⁠⁪⁩⁠‎⁬⁠⁪‍⁠​‬⁠‎­⁠‎⁬⁠‬‍⁠‎⁬⁠⁪‌⁠⁪⁮⁠​⁬⁠⁪⁩⁠‎⁬⁠​‍⁠⁪⁮⁠​⁩⁠‎⁬⁠⁪⁩⁠⁪⁤⁠⁪⁯⁠⁪⁮⁠​‍⁠‎⁬⁠​‬⁠⁪‌⁠⁪‍⁠​⁨⁠‎⁬⁠​⁬⁠​‎⁠⁪⁮⁠⁪⁯⁠⁪⁩⁠⁪⁨⁠​‬⁠‎⁤⁠.
+- Try decoding this line with text watermark original⁩​⁠⁪⁩⁠⁪⁢⁠⁪⁢⁠‎⁬⁠⁪‬⁠⁪⁮⁠⁪⁤⁠⁪⁩⁠‎⁢⁠‎⁬⁠​‍⁠⁪⁮⁠​⁩⁠‎⁬⁠⁪‬⁠⁪⁩⁠⁪⁨⁠⁪⁮⁠⁪‬⁠⁪⁩⁠⁪‬⁠‎⁬⁠⁪‍⁠​‬⁠‎­⁠‎⁬⁠‬‌⁠⁪⁮⁠​⁬⁠⁪⁩⁠‎⁬⁠​‍⁠⁪⁮⁠​⁩⁠‎⁬⁠⁪⁩⁠⁪⁤⁠⁪⁭⁠⁪⁮⁠​‍⁠‎⁬⁠​‬⁠⁪‌⁠⁪‍⁠​⁨⁠‎⁬⁠​⁬⁠​‎⁠⁪⁮⁠⁪⁭⁠⁪⁩⁠⁪⁨⁠​‬⁠‎­⁠‎⁬⁠⁨⁭⁠‎‍⁠.
+  
